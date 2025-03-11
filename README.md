@@ -1,4 +1,4 @@
-# proyecto-Json
+# Proyecto Json
 
 ## Enunciado
 El enunciado de este proyecto es: 
