@@ -13,20 +13,13 @@ def listar_titulos_y_anios(peliculas):
 
 # 2. Contar información (modificado)
 def contar_peliculas_por_genero(peliculas):
-
     conteo_generos = defaultdict(int) 
-
     for pelicula in peliculas:
-
         for genero in pelicula['genero']:
-
             conteo_generos[genero] += 1
-
-
     print("\nCantidad de películas por género:")
 
     for genero, cantidad in conteo_generos.items():
-
         print(f"{genero}: {cantidad}")
 
 # 3. Buscar o filtrar información
@@ -54,7 +47,6 @@ def pelicula_con_calificacion_mas_alta(peliculas):
 
     # Filtra las películas que tienen la clave 'calificacion'
     peliculas_con_calificacion = [p for p in peliculas if 'calificacion' in p]
-
     if not peliculas_con_calificacion:  # Verifica si hay películas con calificación
         print("No hay películas con calificación disponible.")
         return
