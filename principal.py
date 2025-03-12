@@ -4,7 +4,6 @@ from funcionesPeliculas import *
 
 def main():
     peliculas = cargar_peliculas()
-
     
     while True:
         mostrar_menu()
